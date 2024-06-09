@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PlantAi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu-bar">
+            <ul>
+                <li onclick="applyButtonEffect()">Home</li>
+                <li onclick="redirectToHomePage()">Services</li>
+                <li onclick="openSignInPage()">SignIn</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="inner-box">
+            <h1>Welcome to Guardiana!</h1>
+            <h2>AI Powered Leaf Analysis for Disease Diagnosis and Information</h2>
+            <p><b>Here, you'll discover the wonders of plant health with our cutting-edge AI-powered leaf image analysis, providing accurate disease diagnosis and effective remedies. Delve into the rich tapestry of plant life as we offer insights into cultivation tips, the purpose behind various plants, and much more. Join us in nurturing a greener, healthier world through knowledge and innovation.</b></p>
+            <button id="getStartedButton" class="nav-button" onclick="openLoginPage()">Get Started</button>
+        </div>
+        <!-- Add circular buttons -->
+        <div class="circle-buttons">
+            <button class="circle-button" onclick="applyCircleButtonEffect(this)">Disease Detection</button>
+            <button class="circle-button" onclick="applyCircleButtonEffect(this)">Plant</button>
+            <button class="circle-button" onclick="applyCircleButtonEffect(this)">PlantAI</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
